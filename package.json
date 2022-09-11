@@ -1,0 +1,27 @@
+{
+  "name": "jirahub",
+  "version": "0.0.1",
+  "description": "This api will automatically link your Github things to a specific Jira task and do things for you. In simple words. An Open source Jira-Github Linking.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jira",
+    "github",
+    "jirahub"
+  ],
+  "author": "raxraj",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "query-string": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
